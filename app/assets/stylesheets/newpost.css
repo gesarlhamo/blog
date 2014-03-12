@@ -3,7 +3,14 @@
 a {
 	display:block;
 	text-align:center;
+	text-decoration:none;
+	color:purple;
+	margin:5px;
 
+}
+
+a:hover{
+	color:green;
 }
 
 p {
