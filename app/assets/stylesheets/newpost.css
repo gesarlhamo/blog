@@ -1,0 +1,69 @@
+/* NewpostPage*/
+
+a {
+	display:block;
+	text-align:center;
+
+}
+
+p {
+	color:purple;
+	text-align:center;
+}
+
+h1 {
+	text-align:center;	
+}
+
+h2{
+	color:green;
+	text-align:center;
+}
+
+body{
+	background-color:pink;
+
+}
+
+textarea{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+input{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+/* submit button */
+
+input[type="submit"]
+{
+	webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#333;
+	background-color:#FA2;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	font-family:'Helvetica Neue',Arial,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	height:32px;
+	padding:4px 16px;
+	text-shadow:#FE6 0 1px 0
+}
+
+input[type="submit"]:hover{
+	background-color:lightyellow;
+
+}
