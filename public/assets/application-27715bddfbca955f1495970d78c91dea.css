@@ -1,0 +1,123 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/* NewpostPage*/
+
+
+a {
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	color:purple;
+	margin:5px;
+
+}
+
+a:hover{
+	color:green;
+}
+
+p {
+	color:purple;
+	text-align:center;
+}
+
+h1 {
+	text-align:center;
+
+}
+
+h2{
+	color:green;
+	text-align:center;
+}
+
+body{
+	background-color:pink;
+	background-image:url("easter-glade-free-blog-background.jpg");
+	background-size:100%;
+}
+
+
+textarea {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea{
+	resize:vertical; 
+	height:150px;
+	width:100px;
+
+	resize:horizontal; 
+	width:500px;
+	padding:3px;
+}
+
+
+
+
+input[type=text]{
+	width:250px;
+	resize:vertical; 
+	max-height:80px; 
+	min-height:30px;
+	font-size:20px;
+}
+
+
+input{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+label{
+	font-size:20px;
+
+}
+
+
+table {
+    margin: 0 auto;
+}
+
+
+/* submit button */
+
+input[type="submit"]
+{
+	webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#333;
+	background-color:pink;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:none;
+	font-family:'Helvetica Neue',Arial,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	height:32px;
+	padding:4px 16px;
+	text-shadow:#FE6 0 1px 0
+}
+
+input[type="submit"]:hover{
+	background-color:lightpink;
+
+}
