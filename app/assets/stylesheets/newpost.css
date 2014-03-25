@@ -19,7 +19,8 @@ p {
 }
 
 h1 {
-	text-align:center;	
+	text-align:center;
+
 }
 
 h2{
@@ -29,13 +30,36 @@ h2{
 
 body{
 	background-color:pink;
-
+	background-image:url("easter-glade-free-blog-background.jpg");
+	background-size:100%;
 }
 
-textarea{
+
+textarea {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+textarea{
+	resize:vertical; 
+	height:150px;
+	width:100px;
+
+	resize:horizontal; 
+	width:500px;
+	padding:3px;
+}
+
+
+
+
+input[type=text]{
+	width:250px;
+	resize:vertical; 
+	max-height:80px; 
+	min-height:30px;
+	font-size:20px;
 }
 
 
@@ -43,11 +67,19 @@ input{
 	display: block;
     margin-left: auto;
     margin-right: auto;
+  
 }
+
+label{
+	font-size:20px;
+
+}
+
 
 table {
     margin: 0 auto;
 }
+
 
 /* submit button */
 
@@ -57,7 +89,7 @@ input[type="submit"]
 	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
 	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
 	color:#333;
-	background-color:#FA2;
+	background-color:pink;
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -71,6 +103,6 @@ input[type="submit"]
 }
 
 input[type="submit"]:hover{
-	background-color:lightyellow;
+	background-color:lightpink;
 
 }
